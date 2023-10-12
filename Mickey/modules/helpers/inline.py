@@ -11,7 +11,7 @@ DEV_OP = [
             url=f"https://t.me/{MickeyBot.username}?startgroup=true",
         ),
     ],
-    [
+[
 PNG_BTN = [
     [
         InlineKeyboardButton(
