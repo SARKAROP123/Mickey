@@ -74,7 +74,7 @@ async def help(client: MickeyBot, m: Message):
         await add_served_chat(m.chat.id)
 
 
-@MickeyBot.on_cmd("repo")
+@MickeyBot.on_cmd("hellonn")
 async def repo(_, m: Message):
     await m.reply_text(
         text=SOURCE_READ,
