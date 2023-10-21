@@ -43,7 +43,7 @@ async def start(_, m: Message):
         await umm.delete()
         await m.reply_photo(
             photo=random.choice(IMG),
-            caption=f"""**𝐂𝐨𝐦𝐞 𝐁𝐚𝐛𝐲 🥵https://t.me/TKS_CHAT_OFFICIAL""",
+            caption=f"""**𝐂𝐨𝐦𝐞 𝐁𝐚𝐛𝐲 🥵""",
             reply_markup=InlineKeyboardMarkup(DEV_OP),
         )
         await add_served_user(m.from_user.id)
