@@ -43,7 +43,17 @@ async def start(_, m: Message):
         await umm.delete()
         await m.reply_photo(
             photo=random.choice(IMG),
-            caption=f"""**𝐂𝐨𝐦𝐞 𝐁𝐚𝐛𝐲 🥵""",
+            caption=f"""**🥀 𝐇𝐞𝐥𝐥𝐨, 𝐈 𝐀𝐦 𝐀𝐧 📀 𝐀𝐝𝐯𝐚𝐧𝐜𝐞𝐝 𝐀𝐧𝐝
+𝐒𝐮𝐩𝐞𝐫𝐟𝐚𝐬𝐭 𝐕𝐂 𝐏𝐥𝐚𝐲𝐞𝐫 💐 𝐅𝐞𝐞𝐥 𝐅𝐫𝐞𝐞 𝐓𝐨 🕊️ 𝐀𝐧𝐝 𝐄𝐧𝐣𝐨𝐲 ❥︎ 𝐒𝐮𝐩𝐞𝐫 𝐇𝐢𝐠𝐡
+𝐐𝐮𝐚𝐥𝐢𝐭𝐲 𝐀𝐮𝐝𝐢𝐨 𝐀𝐧𝐝 𝐕𝐢𝐝𝐞𝐨 🥂
+
+┏━━━━━━━━━━━━━━━━━┓
+┣★𝐂𝐑𝐄𝐀𝐓𝐎𝐑🌱 [𝐒𝐀𝐑𝐊𝐀𝐑](https://t.me/ll_SARKAR_BABE_ll)
+┣★𝐀𝐁𝐎𝐔𝐓 𝐌𝐄🌱 [𝗝𝗢𝗜𝗡](https://t.me/TKS_JOIN)
+┣★𝐆𝐑𝐎𝐔𝐏🌱 [𝗖𝗛𝗔𝗧 𝗚𝗥𝗢𝗨𝗣](https://t.me/TKS_CHAT_OFFICIAL)
+┗━━━━━━━━━━━━━━━━━┛
+🍹𝐏𝐎𝐖𝐄𝐑𝐃 𝐁𝐘🥀[𝐒𝐀𝐑𝐊𝐀𝐑](https://t.me/ll_SARKAR_BABE_ll)
+"""""",
             reply_markup=InlineKeyboardMarkup(DEV_OP),
         )
         await add_served_user(m.from_user.id)
