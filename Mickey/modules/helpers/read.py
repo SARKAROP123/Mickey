@@ -2,18 +2,11 @@ from config import OWNER_USERNAME, SUPPORT_GRP
 from Mickey import MickeyBot
 
 START = f"""
-**🥀 𝐇𝐞𝐥𝐥𝐨, 𝐈 𝐀𝐦 𝐀𝐧 📀 𝐀𝐝𝐯𝐚𝐧𝐜𝐞𝐝 𝐀𝐧𝐝
-𝐒𝐮𝐩𝐞𝐫𝐟𝐚𝐬𝐭 𝐂𝐡𝐚𝐭 𝐁𝐨𝐭 💐 𝐀𝐝𝐝 𝐌𝐞 𝐘𝐨𝐮𝐫 𝐆𝐫𝐨𝐮𝐩 🕊️ 𝐀𝐧𝐝 𝐄𝐧𝐣𝐨𝐲 ❥︎ 🥂
-
-┏━━━━━━━━━━━━━━━━━┓
-┣★𝐂𝐑𝐄𝐀𝐓𝐎𝐑🌱 [𝐒𝐀𝐑𝐊𝐀𝐑](https://t.me/ll_SARKAR_BABE_ll)
-┣★𝐀𝐁𝐎𝐔𝐓 𝐌𝐄🌱 [𝗝𝗢𝗜𝗡](https://t.me/TKS_JOIN)
-┣★𝐆𝐑𝐎𝐔𝐏🌱 [𝗖𝗛𝗔𝗧 𝗚𝗥𝗢𝗨𝗣](https://t.me/TKS_CHAT_OFFICIAL)
-┗━━━━━━━━━━━━━━━━━┛
-🍹𝐏𝐎𝐖𝐄𝐑𝐃 𝐁𝐘🥀[𝐒𝐀𝐑𝐊𝐀𝐑](https://t.me/ll_SARKAR_BABE_ll)**
+**๏ ʜᴇʏ, ɪ ᴀᴍ [{MickeyBot.name}](t.me/{MickeyBot.username})**
+**➻ ᴀɴ ᴀɪ ʙᴀsᴇᴅ ᴄʜᴀᴛʙᴏᴛ**
 **──────────────**
-**𝗨𝗦𝗔𝗚𝗘 /chatbot [𝗢𝗡/ᴏ𝗢𝗙𝗙]**
-<b>||๏ 𝗛𝗜𝗧 𝗛𝗘𝗟𝗣 𝗕𝗨𝗧𝗧𝗢𝗡 𝗙𝗢𝗥 𝗛𝗘𝗟𝗣.||</b>
+**➻ ᴜsᴀɢᴇ /chatbot [ᴏɴ/ᴏғғ]**
+<b>||๏ ʜɪᴛ ʜᴇʟᴘ ʙᴜᴛᴛᴏɴ ғᴏʀ ʜᴇʟᴘ.||</b>
 """
 
 HELP_READ = f"""
@@ -26,7 +19,7 @@ HELP_READ = f"""
 
 TOOLS_DATA_READ = f"""
 <u>**ᴛᴏᴏʟs ғᴏʀ {MickeyBot.name} ᴀʀᴇ:**</u>
-**➻ ᴜsᴇ ғᴏʀ ɢᴇᴛᴛɪɴɢ sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ!**
+**➻ ᴜsᴇ /repo ғᴏʀ ɢᴇᴛᴛɪɴɢ sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ!**
 **──────────────**
 **➻ ᴜsᴇ /ping ғᴏʀ ᴄʜᴇᴄᴋɪɴɢ ᴛʜᴇ ᴘɪɴɢ ᴏғ {MickeyBot.name}**
 **──────────────**
@@ -43,6 +36,9 @@ CHATBOT_READ = f"""
 <b>||©️ @{OWNER_USERNAME}||</b>
 """
 
+SOURCE_READ = f"**ʜᴇʏ, ᴛʜᴇ sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ ᴏғ [{MickeyBot.name}](https://t.me/{MickeyBot.username}) ɪs ɢɪᴠᴇɴ ʙᴇʟᴏᴡ.**\n**ᴘʟᴇᴀsᴇ ғᴏʀᴋ ᴛʜᴇ ʀᴇᴘᴏ & ɢɪᴠᴇ ᴛʜᴇ sᴛᴀʀ ✯**\n**──────────────────**\n**ʜᴇʀᴇ ɪs ᴛʜᴇ [sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ](https://github.com/Devarora-0981/Mickey)**\n**──────────────────**\n**ɪғ ʏᴏᴜ ғᴀᴄᴇ ᴀɴʏ ᴘʀᴏʙʟᴇᴍ ᴛʜᴇɴ ᴄᴏɴᴛᴀᴄᴛ ᴀᴛ [sᴜᴘᴘᴏʀᴛ ᴄʜᴀᴛ](https://t.me/{SUPPORT_GRP}).\n<b>||©️ @{OWNER_USERNAME}||</b>"
+
+ADMIN_READ = f"sᴏᴏɴ"
 
 ABOUT_READ = f"""
 **➻ [{MickeyBot.name}](https://t.me/{MickeyBot.username}) ɪs ᴀɴ ᴀɪ ʙᴀsᴇᴅ ᴄʜᴀᴛ-ʙᴏᴛ.**
