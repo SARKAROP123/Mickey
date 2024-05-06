@@ -24,7 +24,7 @@ from Mickey.modules.helpers import (
 )
 
 
-@MickeyBot.on_cmd(["start", "start"])
+@MickeyBot.on_cmd(["hhstart", "sjhtart"])
 async def start(_, m: Message):
     if m.chat.type == ChatType.PRIVATE:
         accha = await m.reply_text(
