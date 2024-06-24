@@ -6,21 +6,17 @@ from Mickey import MickeyBot
 
 DEV_OP = [
     [
-        InlineKeyboardButton(text="❮💥𝗢𝗪𝗡𝗘𝗥💥❯", user_id=OWNER),
-        InlineKeyboardButton(text="❮💥𝗨𝗣𝗗𝗔𝗧𝗘💥❯", url=f"https://t.me/{SUPPORT_GRP}"),
+        InlineKeyboardButton(text="❮🥀OWNER🥀❯", user_id=OWNER),
+        InlineKeyboardButton(text="❮⭐UPDATE🌟❯", url=f"https://t.me/{SUPPORT_GRP}"),
     ],
     [
         InlineKeyboardButton(
-            text="❮💥𝐀𝐃𝐃 𝐌𝐄 𝐘𝐎𝐔𝐑 𝐆𝐑𝐎𝐔𝐏💥❯",
+            text="❮👀ADD YOUR GROUP👀❯",
             url=f"https://t.me/{MickeyBot.username}?startgroup=true",
         ),
     ],
     [
-        InlineKeyboardButton(text="❮💥𝗛𝗘𝗟𝗣💥❯", callback_data="HELP"),
-    ],
-    [
-        InlineKeyboardButton(text="❮💥𝗨𝗣𝗗𝗔𝗧𝗘💥❯", callback_data="https://t.me/{UPDATE_CHNL}"),
-        InlineKeyboardButton(text="❮💥𝗛𝗘𝗟𝗣💥❯", callback_data="ABOUT"),
+        InlineKeyboardButton(text="❮🍷HELP🍷❯", callback_data="HELP"),
     ],
 ]
 
