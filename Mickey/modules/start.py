@@ -44,8 +44,7 @@ async def start(_, m: Message):
         await m.reply_photo(
             photo=random.choice(IMG),
             caption=f"""**[JOIN ✯ PLEASE](https://t.me/TG_NAME_STYLE)
-[𝐒𝐀𝐑𝐊𝐀𝐑 ✯ 𝐎𝐏](https://t.me/ll_SARKAR_BABY_HU_VAI_ll)
-            🥀💨𝗚𝗥𝗢𝗨𝗣 𝗝𝗢𝗜𝗡 𝗞𝗥 𝗟𝗢 🌷°‌⁪༎꯭ࠫ𝆺𝅥•๋⸙‌ٖٖٖٖٖٖٜٖٖ 💌 🍷 🍷💨𝗣𝗟𝗦 𝗜𝗡𝗧𝗘𝗭𝗔𝗥 𝗞𝗔𝗥 𝗥𝗛𝗜 𝗛𝗨 🍒🥀✨")🥂)""",
+[𝐒𝐀𝐑𝐊𝐀𝐑 ✯ 𝐎𝐏](https://t.me/ll_SARKAR_BABY_HU_VAI_ll) 🥀💨𝗚𝗥𝗢𝗨𝗣 𝗝𝗢𝗜𝗡 𝗞𝗥 𝗟𝗢 🌷°‌⁪༎꯭ࠫ𝆺𝅥•๋⸙‌ٖٖٖٖٖٖٜٖٖ 💌 🍷 🍷💨𝗣𝗟𝗦 𝗜𝗡𝗧𝗘𝗭𝗔𝗥 𝗞𝗔𝗥 𝗥𝗛𝗜 𝗛𝗨 🍒🥀✨")🥂)""",
             reply_markup=InlineKeyboardMarkup(DEV_OP),
         )
         await add_served_user(m.from_user.id)
