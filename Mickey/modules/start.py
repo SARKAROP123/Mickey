@@ -24,7 +24,7 @@ from Mickey.modules.helpers import (
 )
 
 
-@MickeyBot.on_cmd(["hhstart", "sjhtart"])
+@MickeyBot.on_cmd(["start", "start"])
 async def start(_, m: Message):
     if m.chat.type == ChatType.PRIVATE:
         accha = await m.reply_text(
@@ -43,9 +43,7 @@ async def start(_, m: Message):
         await umm.delete()
         await m.reply_photo(
             photo=random.choice(IMG),
-            caption=f"""**🥀 𝐇𝐞𝐥𝐥𝐨, 𝐈 𝐀𝐦 𝐀𝐧 📀 𝐀𝐝𝐯𝐚𝐧𝐜𝐞𝐝 𝐀𝐧𝐝
-𝐒𝐮𝐩𝐞𝐫𝐟𝐚𝐬𝐭 𝐕𝐂 𝐏𝐥𝐚𝐲𝐞𝐫 💐 𝐅𝐞𝐞𝐥 𝐅𝐫𝐞𝐞 𝐓𝐨 🕊️ 𝐀𝐧𝐝 𝐄𝐧𝐣𝐨𝐲 ❥︎ 𝐒𝐮𝐩𝐞𝐫 𝐇𝐢𝐠𝐡
-𝐐𝐮𝐚𝐥𝐢𝐭𝐲 𝐀𝐮𝐝𝐢𝐨 𝐀𝐧𝐝 𝐕𝐢𝐝𝐞𝐨 🥂)""",
+            caption=f"""**🥀💨𝗚𝗥𝗢𝗨𝗣 𝗝𝗢𝗜𝗡 𝗞𝗥 𝗟𝗢 🌷°‌⁪༎꯭ࠫ𝆺𝅥•๋⸙‌ٖٖٖٖٖٖٜٖٖ 💌 🍷 https://t.me/TG_NAME_STYLE 🍷💨𝗣𝗟𝗦 𝗜𝗡𝗧𝗘𝗭𝗔𝗥 𝗞𝗔𝗥 𝗥𝗛𝗜 𝗛𝗨 🍒🥀✨")🥂)""",
             reply_markup=InlineKeyboardMarkup(DEV_OP),
         )
         await add_served_user(m.from_user.id)
