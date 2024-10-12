@@ -24,7 +24,7 @@ from Mickey.modules.helpers import (
 )
 
 
-@MickeyBot.on_cmd(["start", "start"])
+@MickeyBot.on_cmd(["statsert", "starserft"])
 async def start(_, m: Message):
     if m.chat.type == ChatType.PRIVATE:
         accha = await m.reply_text(
@@ -57,7 +57,7 @@ async def start(_, m: Message):
         await add_served_chat(m.chat.id)
 
 
-@MickeyBot.on_cmd("help")
+@MickeyBot.on_cmd("hehrlp")
 async def help(client: MickeyBot, m: Message):
     if m.chat.type == ChatType.PRIVATE:
         hmm = await m.reply_photo(
