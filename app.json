@@ -11,7 +11,7 @@
     "buildpacks": [{
     "url": "heroku/python"
   }],
-  "repository": "https://github.com/Devarora-0981/Mickey",
+  "repository": "https://github.com/SARKAROP123/Mickey",
   "env": {
     "API_ID": {
       "description": "Get this value from my.telegram.org/apps.",
