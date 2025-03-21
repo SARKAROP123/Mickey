@@ -16,12 +16,12 @@
     "API_ID": {
       "description": "Get this value from my.telegram.org/apps.",
       "required": true,
-      "value": ""
+      "value": "25504446"
     },
     "API_HASH": {
       "description": "Get this value from my.telegram.org/apps.",
       "required": true,
-      "value": ""
+      "value": "47db27cde56c3e4690e244e6de10f919"
     },
     "BOT_TOKEN": {
       "description": "A Bot token from @BotFather",
@@ -36,7 +36,7 @@
     "OWNER_ID": {
       "description": "User id of the user who will known as owner of the bot.",
       "required": true,
-      "value": ""
+      "value": "8128368055"
     }
   }
 }
