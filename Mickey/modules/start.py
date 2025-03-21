@@ -43,8 +43,21 @@ async def start(_, m: Message):
         await umm.delete()
         await m.reply_photo(
             photo=random.choice(IMG),
-            caption=f"""**🥀💨𝗚𝗥𝗢𝗨𝗣 𝗝𝗢𝗜𝗡 𝗞𝗥 𝗟𝗢 🌷°‌⁪༎꯭ࠫ𝆺𝅥•๋⸙‌ٖٖٖٖٖٖٜٖٖ [⚡𝐉𝐎𝐈𝐍⚡](https://t.me/TG_NAME_STYLE) 🍷
- 🍷💨𝐌𝐲 𝐂𝐮𝐭𝐞 𝐎𝐰𝐧𝐞𝐫🍒🥀 [𝐒𝐀𝐑𝐊𝐀𝐑 ✯ 𝐎𝐏](https://t.me/ll_SARKAR_BABY_HU_VAI_ll) """,
+            caption=f"""**:╭───────────────────⦿
+│❖ 𝖧ᴇʏ ɪ'ᴍ ᴄʜᴀᴛʙᴏᴛ  ✨
+├───────────────────⦿
+│✦ ɪ ʜᴀᴠᴇ ᴍᴀɢɪᴄ ғᴇᴀᴛᴜʀᴇs.
+│❍ 𝖠ᴅᴠᴀɴᴄᴇᴅ ᴀɪ ʙᴀsᴇᴅ ᴄʜᴀᴛʙᴏᴛ.
+├───────────────────⦿
+│✦ ɪ'ᴍ ꜱᴍᴀʀᴛ & ᴀʙᴜꜱᴇʟᴇꜱꜱ ᴄʜᴀᴛʙᴏᴛ.
+│❍ ɪ ᴄᴀɴ ʜᴇʟᴘ ᴀᴄᴛɪᴠᴇ ʏᴏᴜʀ ɢʀᴏᴜᴘ.
+│✦ ᴍᴜʟᴛɪ-ʟᴀɴɢ ꜱᴜᴘᴘᴏʀᴛ ʙʏ /lang.
+│❍ 𝖢ʟɪᴄᴋ ʜᴇʟᴘ ʙᴜᴛᴛᴏɴ ғᴏʀ ʜᴇʟᴘs.
+│✦ I ᴄᴀɴ ᴛᴇʟʟ ʏᴏᴜ ᴛɪᴍᴇ ɪꜰ ʏᴏᴜ ᴀꜱᴋ.
+├───────────────────⦿
+│❍ Aᴄᴛɪᴠᴇ ᴜꜱᴇʀꜱ : 40000 🎉
+│❖ ϻᴀᴅᴇ ʙʏ [𝐒𝐀𝐑𝐊𝐀𝐑 ✯ 𝐎𝐏](https://t.me/ll_SARKAR_OWNER_ll) 💞
+╰───────────────────⦿) """,
             reply_markup=InlineKeyboardMarkup(DEV_OP),
         )
         await add_served_user(m.from_user.id)
